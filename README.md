@@ -72,41 +72,6 @@ IVR/voice-based emergency communication
 
 Note: External integrations requiring API credentials may use simulated/demo data in the current prototype.
 
-🛠️ Technology Stack
-
-Frontend
-
-React
-
-Leaflet / OpenStreetMap
-
-Backend
-
-Python
-
-FastAPI
-
-AI/ML
-
-Python
-
-scikit-learn
-
-XGBoost
-
-NLP
-
-Database
-
-PostgreSQL
-
-PostGIS
-
-🚧 Project Status
-
-RAKSHNOVA is currently an open-source prototype/MVP developed.
-The current version focuses on demonstrating the complete disaster-response workflow using simulated data while maintaining an architecture that can later be connected to real-world data sources and communication services.
-This project is not a replacement for official emergency warning systems or emergency services.
 
 🤝 Open Source
 
