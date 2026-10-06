@@ -1,102 +1,72 @@
 # RAKSHNOVA
 
-🌍 RAKSHNOVA
+# RakshNova – AI Disaster Intelligence & Emergency Response
 
-AI-powered disaster intelligence and emergency response platform
-RAKSHNOVA is an open-source AI-driven platform designed to improve disaster preparedness and emergency response during floods, earthquakes, fires, and extreme weather events.
-The platform brings together disaster data, risk assessment, vulnerability analysis, multilingual alerts, and AI-assisted rescue prioritization into one system.
-Instead of only asking "Where will a disaster happen?", DishaRakshak also asks "Who is most vulnerable, what help is needed, and who should be reached first?"
+A frontend-only hackathon prototype that shows how AI-style analysis could support disaster monitoring, early warning and emergency response.
 
-🎯 Our Goal
+**Prototype notice:** All data and "AI" analysis are simulated for demonstration. This is not real emergency data. In a real emergency, contact your local emergency services.
 
-To transform scattered disaster information into location-specific, understandable, and actionable intelligence for both citizens and emergency responders.
+## Problem
 
-⚡ Core Capabilities
+During floods, earthquakes, fires and extreme weather, people often lack timely, location-specific information. RakshNova demonstrates a dashboard that analyzes disaster data, gives early warnings, highlights high-risk areas and recommends faster emergency action.
 
-🌦️ Multi-Hazard Analysis — Analyze disaster and environmental data across multiple hazard types.
+## Features
 
-🗺️ Risk & Vulnerability Mapping — Identify high-risk areas by combining hazard severity with population and vulnerability factors.
+- Live-style dashboard with simulated risk score, people affected, active alerts, high-risk zones and response priority
+- Overview cards for Flood, Earthquake, Fire and Extreme Weather
+- Interactive risk analysis by disaster type, location, severity and population density
+- Early warning alerts, with a prominent banner when risk is Critical
+- Clickable high-risk zone map of a fictional region
+- Emergency response panel with evacuation advice, safe zones, sample contacts and a checklist
+- AI situation briefing generated from the selected analysis or zone
+- Reset button to restore the starting state
 
-🚨 Hyperlocal Early Warnings — Generate simple, location-specific alerts instead of generic regional warnings.
+## How to Run
 
-🌐 Multilingual Communication — Convert technical warnings into clear instructions in multiple languages.
+1. Keep `index.html`, `style.css` and `script.js` in the same folder.
+2. Open `index.html` in any modern browser.
 
-🤖 AI Emergency Classification — Convert unstructured citizen reports into structured emergency information.
+No installation, server or internet connection is needed.
 
-🆘 Rescue Prioritization — Rank emergency requests based on severity, vulnerability, and waiting time.
+## Tech Stack
 
-🏥 Resource & Shelter Monitoring — Display shelters, capacity, emergency resources, and active incidents.
+- HTML
+- CSS
+- Vanilla JavaScript
 
-🛣️ Response Support — Help responders identify safer routes and prioritize critical incidents.
+No frameworks, backend or database.
 
-🔄 How It Works
+## How the Risk Score Works
 
-Disaster Data ↓ Hazard Analysis ↓ Risk & Vulnerability Assessment ↓ Hyperlocal Warning ↓ Citizen Emergency Reports ↓ AI Classification & Prioritization ↓ Emergency Response 
+The risk score is a weighted formula, not a trained model:
 
-🧠 AI in RAKSHNOVA
+- Severity: 38%
+- Location vulnerability: 32%
+- Population density: 20%
+- Seasonal and environmental conditions: 10%
 
-AI is used to support—not replace—human emergency decision-making.
-The current prototype focuses on:
+A small random variation is added. Scores map to Low (under 30), Moderate (30–54), High (55–77) and Critical (78 and above).
 
-Emergency report classification
+## Project Files
 
-Severity assessment
+- `index.html` – page structure
+- `style.css` – styling and responsive layout
+- `script.js` – simulated data, risk logic, alerts, map and briefing
 
-Vulnerability-aware prioritization
+## Limitations
 
-Natural-language emergency alerts
+- All locations, populations and alerts are fictional.
+- Emergency contact numbers are samples and should be verified locally.
+- No real sensors, maps or forecasting data are used.
 
-Risk scoring
+## Future Scope
 
-Future versions can integrate trained ML models and real-time disaster data sources for more advanced forecasting and analysis.
+- Connect real data sources such as weather, seismic and satellite feeds
+- Use real maps and GPS
+- Train and validate real prediction models
+- Add SMS and push notifications and multi-language support
 
-🌐 Future Integrations
-
-The architecture is designed to support data and communication services such as:
-
-IMD weather and rainfall data
-
-USGS/NCS earthquake data
-
-NASA FIRMS fire data
-
-Sentinel satellite imagery
-
-River-level data
-
-OpenStreetMap
-
-SMS and WhatsApp notifications
-
-IVR/voice-based emergency communication
-
-Note: External integrations requiring API credentials may use simulated/demo data in the current prototype.
-
-
-🤝 Open Source
-
-RAKSHNOVA is designed to be community-driven.
-Contributions are welcome in areas including:
-
-Frontend development
-
-Backend development
-
-AI/ML models
-
-NLP and multilingual support
-
-Disaster-data integrations
-
-Mapping and visualization
-
-Accessibility
-
-Testing
-
-Documentation
-
-
+ 
 🌱 Vision
 
 From knowing that a disaster is coming to knowing who needs help first.
